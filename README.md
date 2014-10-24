@@ -29,3 +29,4 @@ There are 2 pre-made installation scripts for Drupal and Wordpress.
 1. Login to your vagrant box (`vagrant ssh`)
 2. Run the command `sh /vagrant/scripts/install_wordpress.sh`
 3. Go to [192.168.33.12](http://192.168.33.12/) when prompted to finish the rest of the installation process through the UI
+
