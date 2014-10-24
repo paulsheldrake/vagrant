@@ -44,9 +44,10 @@ project.
 
 Then login and install the CMS you want.
 
-You can also for this repo and use it as a starting point for any other vagrant dev stacks you want to setup
+You can also for this repo and use it as a starting point for any other vagrant dev stacks you want to setup.
 
-Cheers,
-Paul Sheldrake
+Cheers  
+Paul
+
 
 
