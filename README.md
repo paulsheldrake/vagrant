@@ -44,6 +44,8 @@ project.
 
 Then login and install the CMS you want.
 
+After you install the CMS you want the HTML folder on your host machine can then be used to make changes to your code as necessary.
+
 You can also for this repo and use it as a starting point for any other vagrant dev stacks you want to setup.
 
 Cheers  
