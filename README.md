@@ -7,7 +7,7 @@ Setup
 -----
 Vagrant creates the shared folder as an NFS mount so you will need to enter your HOST machine admin password.
 
-When your VM has finished provisioning you should see a phpinfo page at [192.168.33.12](http://192.168.33.12/).
+When your VM has finished provisioning you should see a phpinfo page at [192.168.33.10](http://192.168.33.10/).
 
 Database
 --------
@@ -23,12 +23,12 @@ There are 2 pre-made installation scripts for Drupal and Wordpress.
 1. Login to your vagrant box (`vagrant ssh`)
 2. Run the command `sh /vagrant/scripts/install_drupal.sh`
 3. The admin password will be automatically generate through the script so keep an eye out for that
-3. Go to [192.168.33.12](http://192.168.33.12/) when prompted
+3. Go to [192.168.33.10](http://192.168.33.10/) when prompted
 
 ### To install wordpress
 1. Login to your vagrant box (`vagrant ssh`)
 2. Run the command `sh /vagrant/scripts/install_wordpress.sh`
-3. Go to [192.168.33.12](http://192.168.33.12/) when prompted to finish the rest of the installation process through the
+3. Go to [192.168.33.10](http://192.168.33.10/) when prompted to finish the rest of the installation process through the
 UI
 
 How to use
