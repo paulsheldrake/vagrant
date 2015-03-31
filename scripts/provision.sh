@@ -59,4 +59,4 @@ echo "## Symlink vagrant html folder to location apache user"
 rm -rf /var/www/html
 ln -s /vagrant/html /var/www/html
 
-echo "Go to http://192.168.33.12/ in your browser"
+echo "Go to http://192.168.33.10/ in your browser"
