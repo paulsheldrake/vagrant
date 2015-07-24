@@ -22,4 +22,11 @@ sudo -u apache drush site-install standard -y --db-url=mysql://root:vagrant@loca
 cd ../
 chown -R apache:apache html
 
+## Setup codesniffer
+cd /vagrant/html
+drush pm-download coder-8.x-2.3 --destination=$HOME/.drush -y
+drush cache-clear drush
+sudo pear install PHP_CodeSniffer
+sudo cp -R $HOME/.drush/coder/coder_sniffer/Drupal/ /usr/share/pear/PHP/CodeSniffer/Standards/
+
 echo "Go to http://192.168.33.12/"
