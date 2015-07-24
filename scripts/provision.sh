@@ -4,8 +4,8 @@ echo "## Update the system"
 sudo yum update -y
 
 echo "## Start installing necessary repos"
-wget http://dl.iuscommunity.org/pub/ius/stable/Redhat/6/x86_64/ius-release-1.0-13.ius.el6.noarch.rpm
-sudo yum install ius-release-1.0-13.ius.el6.noarch.rpm -y
+wget http://dl.iuscommunity.org/pub/ius/stable/Redhat/6/x86_64/ius-release-1.0-14.ius.el6.noarch.rpm
+sudo yum install ius-release-1.0-14.ius.el6.noarch.rpm -y
 
 echo "## We are removing the default mysql-libs from the centos box which will be replaced with the new libs from mysql56"
 MYSQL_LIBS=$(rpm -qa | grep mysql-libs)
