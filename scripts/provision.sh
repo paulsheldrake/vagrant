@@ -30,6 +30,7 @@ sudo yum install -y git unzip
 
 echo "## Turn off IP Tables"
 sudo service iptables stop
+sudo chkconfig iptables off
 
 echo "## Start apache"
 sudo service httpd start
